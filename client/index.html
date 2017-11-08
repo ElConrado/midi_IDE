@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Tahoma, Geneva, sans-serif;
+        }
+        div {
+            display: inline;
+        }
+		
+		.blackKey{
+			position:absolute;
+			background-color:black;
+			height:150px;
+			width:25px;
+		}
+		.whiteKey{
+			position:absolute;
+			background-color:black;
+			height:150px;
+			width:25px;
+		}
+		#keyboard{
+		position:relative;
+		}
+		#keyboard>div {
+			height:200px;
+			width:50px;
+		}
+    </style><script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+  <script src="./jquery.json2html.js"></script>
+  <script src="./json2html.js"></script>
+  <script src="./snippets/KeyActionHandler.js"></script>
+  <script src="./snippets/KeyView.js"></script>
+  <script src="./snippets/combinationRecorder.js"></script>
+  <script src="./snippets/webEditor.js"></script>
+  <script src="./functions.js"></script>
+	
+	
+	    <script src="main.js"></script>
+
+</head>
+<body>
+<div id="output"></div>
+<strong>Server Stats</strong><br>
+Note: <div id='m'></div><br>
+Strong: <div id='d'></div><br>
+<div id="keyboard" class="row">
+<div class="keys"><div class="key" data-key="-12"></div><div class="key black black1" data-key="-11"></div><div class="key" data-key="-10"></div><div class="key black black3" data-key="-9"></div><div class="key" data-key="-8"></div><div class="key" data-key="-7"></div><div class="key black black1" data-key="-6"></div><div class="key" data-key="-5"></div><div class="key black black2" data-key="-4"></div><div class="key" data-key="-3"></div><div class="key black black3" data-key="-2"></div><div class="key" data-key="-1"></div><div class="key" data-key="0"></div><div class="key black black1" data-key="1"></div><div class="key" data-key="2"></div><div class="key black black3" data-key="3"></div><div class="key" data-key="4"></div><div class="key" data-key="5"></div><div class="key black black1" data-key="6"></div><div class="key" data-key="7"></div><div class="key black black2" data-key="8"></div><div class="key" data-key="9"></div><div class="key black black3" data-key="10"></div><div class="key" data-key="11"></div><div class="key" data-key="12"></div><div class="key black black1" data-key="13"></div></div>
+
+
+
+</div>
+</body>
+</html>

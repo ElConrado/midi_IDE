@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<body>
+<!--
+usage:
+
+just zoom out in keyboardView.zoom 
+add oktave object to keyboardView
+save oktave in new array 
+
+-->
+<style>
+#keyboardView{
+position:absolute;
+top:20%;display:inline-block;
+  -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 50%; /* Webkit browsers */
+height:400px;
+width:1000vw;
+}
+#oktave{
+position:relative;
+width:910px;
+height:100%;
+display:inline-block;
+}
+
+#oktave div{
+display:inline-block;
+border:1px solid black;
+position:relative;
+height:100%;
+width:118px;
+margin:4px;
+}
+.black{
+position: absolute !important;
+    background-color: black;
+    height: 60% !important;
+    margin: -4% !important;
+    top: 10%;
+    width: 8% !important;
+
+}
+</style>
+	<div id="keyboardView">
+		<div id="oktave">
+			<div id="c">
+			</div>
+			<div class="black" id="c#">
+			</div>
+			<div id="d">
+			</div>
+			<div class="black" id="d#">
+			</div>
+			<div id="e">
+			</div>
+			<div id="f">
+			</div>
+			<div class="black" id="f#">
+			</div>
+			<div id="g">
+			</div>
+			<div class="black" id="g#">
+			</div>
+			<div id="a">
+			</div>
+			<div class="black" id="a#">
+			</div>
+			<div id="h">
+			</div>
+		</div>	
+	</div>
+</body>
+</html>

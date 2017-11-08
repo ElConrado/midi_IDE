@@ -1,0 +1,28 @@
+{
+  "name": "midi_ide",
+  "version": "1.0.0",
+  "description": "This is the midi html5 IDE ",
+  "main": "main.js",
+  "scripts": {
+    "test": "NoTests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NoGit"
+  },
+  "keywords": [
+    "Midi",
+    "Controller",
+    "IDE",
+    "HTML5"
+  ],
+  "author": "Conrad Kirschner",
+  "license": "MIT",
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "jquery": "^3.2.1",
+    "midi": "^0.9.5",
+    "path": "^0.12.7",
+    "ws": "^3.1.0"
+  }
+}
